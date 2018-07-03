@@ -1,0 +1,17 @@
+[package]
+name = "game-name-generator"
+version = "0.1.0"
+authors = ["Martin Tomasi <martin.tomasi@gmail.com>"]
+
+[dependencies]
+env_logger = "0.5.10"
+failure = "0.1"
+itertools = "0.7.8"
+log = "0.4.3"
+markov = "1.0.2"
+rand = "0.5"
+rayon = "1.0.1"
+reqwest = "0.8"
+serde = "1.0.69"
+serde_derive = "1.0.69"
+serde_json = "1.0.22"
